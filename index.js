@@ -4,7 +4,7 @@
  */
 import { detect } from 'detect-browser'
 
-const { name: browserName } = detect()
+const { name: browserName } = detect() || { name: 'imcuttle' }
 
 export default ({ window = global, shouldFallback = true } = {}) => {
   return {
