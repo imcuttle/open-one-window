@@ -6,6 +6,14 @@ import { detect } from 'detect-browser'
 
 const { name: browserName } = detect() || { name: 'imcuttle' }
 
+/**
+ * @public
+ * @name openOneWindow
+ * @param options {{}}
+ * @param [options.window=global] {Window}
+ * @param [options.shouldFallback=true] Fallback the way when the browser is not chrome, It's will open every times when `false`
+ * @return {Window}
+ */
 export default ({ window = global, shouldFallback = true } = {}) => {
   return {
     win: null,

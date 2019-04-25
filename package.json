@@ -33,7 +33,6 @@
     "window",
     "open-one-window"
   ],
-  "typings": "index.d.ts",
   "license": "MIT",
   "repository": "imcuttle/open-one-window",
   "jest": {
