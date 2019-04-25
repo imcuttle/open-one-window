@@ -32,27 +32,27 @@ oneWin.open('http://example.com')
 
 ### openOneWindow
 
-[index.js:7-7](https://github.com/imcuttle/open-one-window/blob/b4b0ac77a1b5c4808e7de1ef4e34ec010916ea2f/index.js#L7-L7 'Source code on GitHub')
+[index.js:7-7](https://github.com/imcuttle/open-one-window/blob/e7919136d669472fc0710d20139bf1653e0ba5fa/index.js#L7-L7 "Source code on GitHub")
 
 #### Parameters
 
-- `options` {{}}
-  - `options.window` {Window} (optional, default `global`)
-  - `options.shouldFallback` Fallback the way when the browser is not chrome, It's will open every times when `false` (optional, default `true`)
+-   `options`  {{}}
+    -   `options.window`  {Window} (optional, default `global`)
+    -   `options.shouldFallback`  Fallback the way when the browser is not chrome, It's will open every times when `false` (optional, default `true`)
 
-Returns **[Window](https://developer.mozilla.org/docs/Web/API/Window)**
+Returns **[Window](https://developer.mozilla.org/docs/Web/API/Window)** 
 
 ## Contributing
 
-- Fork it!
-- Create your new branch:  
-  `git checkout -b feature-new` or `git checkout -b fix-which-bug`
-- Start your magic work now
-- Make sure npm test passes
-- Commit your changes:  
-  `git commit -am 'feat: some description (close #123)'` or `git commit -am 'fix: some description (fix #123)'`
-- Push to the branch: `git push`
-- Submit a pull request :)
+-   Fork it!
+-   Create your new branch:  
+    `git checkout -b feature-new` or `git checkout -b fix-which-bug`
+-   Start your magic work now
+-   Make sure npm test passes
+-   Commit your changes:  
+    `git commit -am 'feat: some description (close #123)'` or `git commit -am 'fix: some description (fix #123)'`
+-   Push to the branch: `git push`
+-   Submit a pull request :)
 
 ## Authors
 

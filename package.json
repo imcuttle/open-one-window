@@ -1,6 +1,6 @@
 {
   "name": "open-one-window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.module.js",
   "browser": "dist/index.umd.js",
